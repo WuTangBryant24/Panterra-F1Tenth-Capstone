@@ -1,0 +1,7 @@
+<launch>
+
+    <rosparam command="load" file="$(find wall_following_solutions)/config/config.yaml" />
+
+    <node pkg="wall_following_solutions" name="wall_following_node" type="wall_following_node" output="screen"/>
+
+</launch>
